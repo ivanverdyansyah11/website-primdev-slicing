@@ -28,6 +28,10 @@
     transition: 250ms !important;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -36,7 +40,7 @@ h5,
 h6,
 p {
     margin: 0;
-    font-family: var;
+    font-family: var(--lato-bold);
 }
 
 a {
@@ -128,4 +132,20 @@ header nav > a.active {
 .button-reverse:hover,
 .button-reverse-small:hover {
     background-color: rgba(var(--light-color), 0.12);
+}
+
+.card-testimonial {
+    padding: 36px;
+    background-color: rgba(var(--gray-color), 1);
+    border-radius: 8px;
+}
+
+.card-testimonial h6 {
+    font-size: 1.125rem;
+    color: rgba(var(--primary-color), 1);
+}
+
+.card-testimonial p {
+    font-family: var(--lato-regular);
+    color: rgba(var(--dark-color), 1);
 }
