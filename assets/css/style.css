@@ -138,6 +138,14 @@ header nav > a.active {
     padding: 36px;
     background-color: rgba(var(--gray-color), 1);
     border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-testimonial .decoration-image {
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
 }
 
 .card-testimonial h6 {
